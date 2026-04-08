@@ -28,10 +28,13 @@ position: relative;
 }
 
 .card img{
-width:100%;
+width:90%;
 height:150px;
 object-fit:cover;
 border-radius: 20px;
+margin: 0 2%;
+margin-top: 3px;
+
 }
 
 .card h3{
@@ -180,20 +183,20 @@ color:white;
 
 }
 .creat-creat{
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    background: #eee;
+     width: 250px;
+     height: 250px;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     background: #eee;
      justify-content: center;
      align-items: center;
 
 
 }
 .creat-creat *{
-    width: 90%;
-    height: 50px;
+     width: 90%;
+     height: 50px;
      border: #000000 4px solid;
      display: flex;
      justify-content: center;
@@ -218,9 +221,9 @@ color:white;
     background: #0f172A;
     color: #DCC3A1;
     font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 #foto{
     background: #0f172A;
@@ -240,20 +243,17 @@ color:white;
     font-size: 20px !important;
     position: absolute;
     top: 0;
-    right: 20px;
-
+    right: 20px;
     border: none;
-        font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  border-radius: 4px;
-  border: #ff4747 solid;
-  background: #0f172A;
-  color: #ff4747;
-  margin-top: 20px;
-
-
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    border: #ff4747 solid;
+    background: #0f172A;
+    color: #ff4747;
+    margin-top: 20px;
 }
